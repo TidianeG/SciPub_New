@@ -75,22 +75,12 @@
                 <ul class="d-flex justify-content-between">
                     <li class="menu"><a href="#intro"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                     <li class="menu"><a href="#about">About Us</a></li>
-                    <li class="drop-down "><a href="#services"><i class="fas fa-book-open"></i> Services</a>
-                        <ul>
-                            <li class="drop-down "><a href="#">Scientific manuscript writing</a>
-                                <ul>
-                                    <li><a href="#">Full article writing</a></li>
-                                    <li><a href="#">Writing up article section</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Scientific manuscript proofreading</a></li>
-                            <li><a href="#">Scientific manuscript technical review</a></li>
-                            <li><a href="#">Journal recommendation-submission</a></li>
-                            <li><a href="#">Bioinformatic data analysis</a></li>
-                            <li><a href="#">Plagiarism check</a></li>
-                        </ul>
+                    <li class="menu "><a href="#services"><i class="fas fa-book-open"></i> Services</a>
+                        
                     </li>
-                    <li class="menu"><a href="#"><i class="fas fa-handshake"></i> Quality</a></li>
+                    <li class="menu"><a href="#why-us">Why choose us ?</a></li>
+                    <li class="menu"><a href="#portfolio">Portfolio</a></li>
+                    <li class="menu"><a href="#pricing">Pricing</a></li>
                     <li class="menu">
                         <a href="#faq"> <i class="fas fa-question-circle"></i> FAQs</a>
                     </li>
@@ -107,7 +97,7 @@
     </header>
         @yield('content')
      <!-- ======= Footer ======= -->
-     <footer id="footer " class="section-bg ">
+     <footer id="footer " class="section-bg pt-5">
         <div class="footer-top ">
             <div class="container ">
 
@@ -120,49 +110,21 @@
                             <div class="col-sm-6 ">
 
                                 <div class="footer-info ">
-                                    <h3>Rapid</h3>
-                                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat
-                                        consequat mauris nunc congue.</p>
+                                    <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
+                                    <p>Providing assistance to Academics for scientific publications.</p>
                                 </div>
-
-                                <div class="footer-newsletter ">
-                                    <h4>Our Newsletter</h4>
-                                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
-                                    <form action=" " method="post ">
-                                        <input type="email " name="email "><input type="submit " value="Subscribe ">
-                                    </form>
-                                </div>
-
                             </div>
 
                             <div class="col-sm-6 ">
                                 <div class="footer-links ">
-                                    <h4>Useful Links</h4>
-                                    <ul>
-                                        <li><a href="# ">Home</a></li>
-                                        <li><a href="#about ">About us</a></li>
-                                        <li><a href="# ">Services</a></li>
-                                        <li><a href="# ">Terms of service</a></li>
-                                        <li><a href="# ">Privacy policy</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="footer-links ">
-                                    <h4>Contact Us</h4>
+                                    <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
                                     <p>
-                                        A108 Adam Street <br> New York, NY 535022<br> United States <br>
-                                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                                        <strong>Email:</strong> info@example.com<br>
+                                        Xudong 2nd road, Wuhan, China
+                                        <strong>Email:</strong> usinfo@scipub.com<br>
+                                        <strong>QQ:</strong> 3216282335<br>
+                                        <strong>Wechat:</strong> sonsam10<br>
                                     </p>
                                 </div>
-
-                                <div class="social-links ">
-                                    <a href="# " class="twitter "><i class="fa fa-twitter "></i></a>
-                                    <a href="# " class="facebook "><i class="fa fa-facebook "></i></a>
-                                    <a href="# " class="instagram "><i class="fa fa-instagram "></i></a>
-                                    <a href="# " class="linkedin "><i class="fa fa-linkedin "></i></a>
-                                </div>
-
                             </div>
 
                         </div>
@@ -173,8 +135,8 @@
 
                         <div class="form ">
 
-                            <h4>Send us a message</h4>
-                            <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
+                            <h4 style="font-weight: bold;text-decoration: underline;">Send us a message</h4>
+                            <p>Please fill in your information and send us your message. We will reply promptly !</p>
 
                             <form action="forms/contact.php " method="post " role="form " class="php-email-form ">
                                 <div class="form-group ">

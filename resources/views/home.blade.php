@@ -1,23 +1,22 @@
 @extends('layouts.app')
       @section('content')
         <!-- ======= Hero Section ======= -->
-    <section id="hero" class="clearfix">
+    <section id="hero" class="clearfix mb-5 " >
         <div class="container d-flex h-100">
             <div class="row justify-content-center align-self-center">
-                <div class="col-md-6 intro-info order-md-first order-last">
-                    <h2 style="font-size: 70px; font-weight: 700;">
-                        <label for="" style="color: darkred;">S</label><label for="" style="color: black;">ci</label><label for="" style="color: darkred;">P</label><label for="" style="color: black;">ub</label>
+                <div class="premiere" style="">
+                    <img class="img-premiere " src="{{asset('assets/img/premiere.jpeg')}}">
+                </div>
+                <div class="col-12 intro-info">
+                    <h2  style="font-size: 70px;text-align: center; font-weight: 700;">
+                        <label for="" style="color: darkred;">S</label><label for="" style="color: black;">ci</label><label for="" style="color:darkred;">P</label><label for="" style="color: black;">ub</label>
                     </h2>
-                    <h2>Providing assistance to Academics for scientific publications</h2>
+                    <h2 style="font-weight: bold;">Providing assistance <br> to Academics for <br> scientific publications</h2>
                     <p style="text-align: justify;"> Getting your work published in a scientific journal is not a minor task. Even a well conducted study with exciting findings but poorly presented will struggle in the publication process. That is why your results should be well presented,
                         structured and manuscript carefully written. We, <label for="" style="color: darkred;">S</label><label for="" style="color: black;">ci</label><label for="" style="color: darkred;">P</label><label for="" style="color: black;">ub</label>                        are there as an outlet for you to attend your goal. Either you need help to analyze your data, writing a section/full manuscript, proofreading your text, or looking for journal recommendation/submission of your manuscript, our
                         specialized team will support you over the whole process. We have worldwide partnerships and our customers are always satisfied. <label for="" style="color: darkred;">S</label><label for="" style="color: black;">ci</label>
                         <label for="" style="color: darkred;">P</label><label for="" style="color: black;">ub</label> is recommended by the world’s leading journals and publishers. </p>
 
-                </div>
-
-                <div class="col-md-6 intro-img order-md-last order-first">
-                    <img src="{{asset('assets/img/intro-img.svg')}}" alt="" class="img-fluid">
                 </div>
             </div>
 
@@ -33,13 +32,13 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-5 col-md-6">
+                    <div class="col-lg-6 col-md-6 mt-5">
                         <div class="about-img">
-                            <img src="{{asset('assets/img/about-img.jpg')}}" alt="">
+                            <img src="{{asset('assets/img/about_us.jpg')}}" alt="">
                         </div>
                     </div>
 
-                    <div class="col-lg-7 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="about-content">
                             <h2 style="color: darkred;">About Us</h2>
                             <h3>By assisting you through the publication journey, we make sure there is no barrier in publishing your work if it is scientifically well conducted.</h3>
@@ -333,133 +332,38 @@
                 </div>
 
                 <div class="row portfolio-container">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="col-12 col-md-6 portfolio-item filter-app">
+                        <div>
+                            <h3 style="font-weight: bold;text-decoration: underline;">University partners</h3>
+                        </div>
                         <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/app1.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('assets/img/university.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4><a href="#">App 1</a></h4>
                                 <p>App</p>
                                 <div>
-                                    <a href="{{asset('assets/img/portfolio/app1.jpg')}}" data-gall="portfolioGallery" title="App 1" class="link-preview venobox"><i class="ion ion-eye"></i></a>
+                                    <a href="{{asset('assets/img/university.jpg')}}" data-gall="portfolioGallery" title="App 1" class="link-preview venobox"><i class="ion ion-eye"></i></a>
                                     <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/web3.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Web 3</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="{{asset('assets/img/portfolio/web3.jpg')}}" class="link-preview venobox" data-gall="portfolioGallery" title="Web 3"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
+                    <div class="col-12 col-md-6 portfolio-item filter-app">
+                        <div>
+                            <h4 style="font-weight: bold;text-decoration: underline;">Targeted Journals and Publishers </h4>
                         </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/app2.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('assets/img/journaux.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4><a href="#">App 2</a></h4>
+                                <h4><a href="#">App 1</a></h4>
                                 <p>App</p>
                                 <div>
-                                    <a href="{{asset('assets/img/portfolio/app2.jpg')}}" class="link-preview venobox" data-gall="portfolioGallery" title="App 2"><i class="ion ion-eye"></i></a>
+                                    <a href="{{asset('assets/img/journaux.jpg')}}" data-gall="portfolioGallery" title="App 1" class="link-preview venobox"><i class="ion ion-eye"></i></a>
                                     <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/card2.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Card 2</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="{{asset('assets/img/portfolio/card2.jpg')}}" class="link-preview venobox" data-gall="portfolioGallery" title="Card 2"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/web2.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Web 2</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="{{asset('assets/img/portfolio/web2.jpg')}}" class="link-preview venobox" data-gall="portfolioGallery" title="Web 2"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/app3.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">App 3</a></h4>
-                                <p>App</p>
-                                <div>
-                                    <a href="{{asset('assets/img/portfolio/app3.jpg')}}" class="link-preview venobox" data-gall="portfolioGallery" title="App 3"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/card1.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Card 1</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="{{asset('assets/img/portfolio/card1.jpg')}}" class="link-preview venobox" data-gall="portfolioGallery" title="Card 1"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/card3.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Card 3</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="{{asset('assets/img/portfolio/card3.jpg')}}" class="link-preview venobox" data-gall="portfolioGallery" title="Card 3"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('assets/img/portfolio/web1.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Web 1</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="{{asset('assets/img/portfolio/web1.jpg')}}" class="link-preview venobox" data-gall="portfolioGallery" title="Web 1"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
@@ -476,7 +380,6 @@
 
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-
                         <div class="owl-carousel testimonials-carousel wow fadeInUp">
 
                             <div class="testimonial-item">
@@ -523,118 +426,6 @@
             </div>
         </section>
         <!-- End Testimonials Section -->
-
-        <!-- ======= Team Section ======= 
-        <section id="team" class="team section-bg">
-            <div class="container">
-                <div class="section-header">
-                    <h3>Team</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 wow fadeInUp">
-                        <div class="member">
-                            <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
-                                    <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="member">
-                            <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
-                                    <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="member">
-                            <img src="assets/img/team-3.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
-                                    <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="member">
-                            <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
-                            <div class="member-info">
-                                <div class="member-info-content">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
-                                    <div class="social">
-                                        <a href=""><i class="fa fa-twitter"></i></a>
-                                        <a href=""><i class="fa fa-facebook"></i></a>
-                                        <a href=""><i class="fa fa-google-plus"></i></a>
-                                        <a href=""><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-         End Team Section -->
-
-        <!-- ======= Clients Section ======= -->
-        <section style="background-color: lightblue;" id="clients" class="clients wow fadeInUp">
-            <div class="container">
-
-                <header class="section-header">
-                    <h3>Our Clients</h3>
-                </header>
-
-                <div class="owl-carousel clients-carousel">
-                    <img src="{{asset('assets/img/clients/client-1.png')}}" alt="">
-                    <img src="{{asset('assets/img/clients/client-2.png')}}" alt="">
-                    <img src="{{asset('assets/img/clients/client-3.png')}}" alt="">
-                    <img src="{{asset('assets/img/clients/client-4.png')}}" alt="">
-                    <img src="{{asset('assets/img/clients/client-5.png')}}" alt="">
-                    <img src="{{asset('assets/img/clients/client-6.png')}}" alt="">
-                    <img src="{{asset('assets/img/clients/client-7.png')}}" alt="">
-                    <img src="{{asset('assets/img/clients/client-8.png')}}" alt="">
-                </div>
-
-            </div>
-        </section>
-        <!-- End Clients Section -->
-
         <!-- ======= Pricing Section ======= -->
         <section id="pricing" class="pricing section-bg wow fadeInUp">
 
@@ -642,7 +433,7 @@
 
                 <header class="section-header">
                     <h3>Pricing</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                    <p>This is our pricing for our different services. Please contact us directly for a formal price quotation</p>
                 </header>
 
                 <div class="row flex-items-xs-middle flex-items-xs-center">
@@ -754,60 +545,96 @@
                 </header>
 
                 <ul id="faq-list " class="wow fadeInUp ">
-                    <li>
-                        <a data-toggle="collapse " class="collapsed " href="#faq1 ">Non consectetur a erat nam at lectus urna duis? <i class="ion-android-remove "></i></a>
+                    <li class="mb-2">
+                        <a data-toggle="collapse " class="collapsed " href="#faq1 ">What are the options I can avail for editing? <i class="ion-android-remove "></i></a>
                         <div id="faq1 " class="collapse " data-parent="#faq-list ">
                             <p>
-                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                                Welcome to <h4><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> assistance service. Thanks for letting us know about your queries. Please find below the answer of your question. If it is still confused contact us directly by sending us an e-mail.
+                            </p>
+                            <p>
+                                Dear customer, we offer editing services for articles, academic papers, etc. These include simple or multiple round editing, and standard editing. Moreover, there are proofreading services, technical reading and so on. Thank you!
                             </p>
                         </div>
                     </li>
 
-                    <li>
-                        <a data-toggle="collapse " href="#faq2 " class="collapsed ">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="ion-android-remove "></i></a>
+                    <li class="mb-2">
+                        <a data-toggle="collapse " href="#faq2 " class="collapsed ">Are your editors really qualified? <i class="ion-android-remove "></i></a>
                         <div id="faq2 " class="collapse " data-parent="#faq-list ">
                             <p>
-                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                cursus turpis massa tincidunt dui.
+                                Welcome to <h4><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> assistance service. Thanks for letting us know about your queries. Please find below the answer of your question. If it is still confused contact us directly by sending us an e-mail.
+                            </p>
+                            <p>
+                                Dear customer, all our editors are active scientific researchers and academicians and have at least the PhD level. They are well versed in the international standards of academic appraisal and scientific publication. They have published each more than 50 articles in top journals. Some editors are even associated with reputed journals as peer review experts, and with leading institutes as consulting examiners. Thank you!
                             </p>
                         </div>
                     </li>
 
-                    <li>
-                        <a data-toggle="collapse " href="#faq3 " class="collapsed ">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="ion-android-remove "></i></a>
+                    <li class="mb-2">
+                        <a data-toggle="collapse " href="#faq3 " class="collapsed ">Why should I choose your company? What are your offers? <i class="ion-android-remove "></i></a>
                         <div id="faq3 " class="collapse " data-parent="#faq-list ">
                             <p>
-                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                                molestie at elementum eu facilisis sed odio morbi quis
+                                Welcome to <h4><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> assistance service. Thanks for letting us know about your queries. Please find below the answer of your question. If it is still confused contact us directly by sending us an e-mail.
+                            </p>
+                            <p>
+                                Dear customer, there are numerous advantages offered by us. Our price, service guarantee, promptitude and flexibility make us the leader in this field. Thank you!
                             </p>
                         </div>
                     </li>
 
-                    <li>
-                        <a data-toggle="collapse " href="#faq4 " class="collapsed ">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="ion-android-remove "></i></a>
+                    <li class="mb-2">
+                        <a data-toggle="collapse " href="#faq4 " class="collapsed ">What is the difference between your technical reading service and proofreading service? <i class="ion-android-remove "></i></a>
                         <div id="faq4 " class="collapse " data-parent="#faq-list ">
                             <p>
-                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                cursus turpis massa tincidunt dui.
+                                Welcome to <h4><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> assistance service. Thanks for letting us know about your queries. Please find below the answer of your question. If it is still confused contact us directly by sending us an e-mail.
+                            </p>
+                            <p>
+                                Dear customer, a technical reading is an in-depth proofreading of a manuscript in a particular field. We only offer technical reading service in our specializations (plant biology, bioinformatics, biotechnology, etc). However, we offer proofreading service in all scientific fields. Thank you!
                             </p>
                         </div>
                     </li>
 
-                    <li>
-                        <a data-toggle="collapse " href="#faq5 " class="collapsed ">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="ion-android-remove "></i></a>
+                    <li class="mb-2">
+                        <a data-toggle="collapse " href="#faq5 " class="collapsed ">What is the turnaround time I can expect a response from your team? <i class="ion-android-remove "></i></a>
                         <div id="faq5 " class="collapse " data-parent="#faq-list ">
                             <p>
-                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                                Welcome to <h4><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> assistance service. Thanks for letting us know about your queries. Please find below the answer of your question. If it is still confused contact us directly by sending us an e-mail.
+                            </p>
+                            <p>
+                                Dear customer, we will reply to your queries within hours during the working time. Send us an enquiry and our experts will be back to you at the earliest. Thank you!
                             </p>
                         </div>
                     </li>
 
-                    <li>
-                        <a data-toggle="collapse " href="#faq6 " class="collapsed ">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="ion-android-remove "></i></a>
+                    <li class="mb-2">
+                        <a data-toggle="collapse " href="#faq6 " class="collapsed ">How many days will your submission service last?<i class="ion-android-remove "></i></a>
                         <div id="faq6 " class="collapse " data-parent="#faq-list ">
                             <p>
-                                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque
-                                diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                                Welcome to <h4><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> assistance service. Thanks for letting us know about your queries. Please find below the answer of your question. If it is still confused contact us directly by sending us an e-mail.
+                            </p>
+                            <p>
+                                Dear customer, the submission service doesn’t last more than two working days.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="mb-2">
+                        <a data-toggle="collapse " href="#faq6 " class="collapsed ">Can I have a multi-omics database development service? Is it expensive?<i class="ion-android-remove "></i></a>
+                        <div id="faq6 " class="collapse " data-parent="#faq-list ">
+                            <p>
+                                Welcome to <h4><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> assistance service. Thanks for letting us know about your queries. Please find below the answer of your question. If it is still confused contact us directly by sending us an e-mail.
+                            </p>
+                            <p>
+                                Dear customer, Yes you can. That service is available. It is not expensive. Please contact us. Thank you!
+                            </p>
+                        </div>
+                    </li>
+                    <li class="mb-2">
+                        <a data-toggle="collapse " href="#faq6 " class="collapsed ">Is your NGS data analysis service still available?<i class="ion-android-remove "></i></a>
+                        <div id="faq6 " class="collapse " data-parent="#faq-list ">
+                            <p>
+                                Welcome to <h4><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> assistance service. Thanks for letting us know about your queries. Please find below the answer of your question. If it is still confused contact us directly by sending us an e-mail.
+                            </p>
+                            <p>
+                                Dear customer, Yes. Contact us directly by e-mail for your order at usinfo@scipub.com. Thank you!
                             </p>
                         </div>
                     </li>
