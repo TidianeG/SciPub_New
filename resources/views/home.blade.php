@@ -5,7 +5,7 @@
         <div class="container d-flex h-100">
             <div class="row justify-content-center align-self-center">
                 <div class="premiere" style="">
-                    <img class="img-premiere " src="{{asset('assets/img/premiere.jpeg')}}">
+                   <img class="img-premiere " src="{{asset('assets/img/premiere.jpeg')}}">
                 </div>
                 <div class="col-12 intro-info">
                     <h2  style="font-size: 70px;text-align: center; font-weight: 700;">
@@ -646,5 +646,5 @@
         <!-- End F.A.Q Section -->
 
     </main>
-    <!-- End #main --
+    
       @endsection

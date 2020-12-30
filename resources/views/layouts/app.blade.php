@@ -68,26 +68,27 @@
             <div class="logo float-left">
                 <!-- Uncomment below if you prefer to use an image logo -->
 
-                <a href="#header" class="scrollto"><img src="{{asset('assets/img/logo.JPG')}}" alt="" class="img-fluid" style="height=10px width = 10px;"></a>
+                <a href="/" class="scrollto"><img src="{{asset('assets/img/logo.JPG')}}" alt="" class="img-fluid" style="height=10px width = 10px;"></a>
             </div>
 
             <nav class="main-nav float-right d-none d-lg-block pt-4">
                 <ul class="d-flex justify-content-between">
-                    <li class="menu"><a href="#intro"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                    <li class="menu"><a href="#about">About Us</a></li>
-                    <li class="menu "><a href="#services"><i class="fas fa-book-open"></i> Services</a>
+                    <li class="menu"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li class="menu"><a href="/about">About Us</a></li>
+                    <li class="menu "><a href="/services"><i class="fas fa-book-open"></i> Services</a>
                         
                     </li>
-                    <li class="menu"><a href="#why-us">Why choose us ?</a></li>
-                    <li class="menu"><a href="#portfolio">Portfolio</a></li>
-                    <li class="menu"><a href="#pricing">Pricing</a></li>
+                    <li class="menu"><a href="/Why_Choose_Us">Why choose us ?</a></li>
+                    <li class="menu"><a href="/portfolio">Portfolio</a></li>
+                    <li class="menu"><a href="/pricing">Pricing</a></li>
+                    <li class="menu"><a href="/testimonials">Testimonials</a></li>
                     <li class="menu">
-                        <a href="#faq"> <i class="fas fa-question-circle"></i> FAQs</a>
+                        <a href="/FAQS"> <i class="fas fa-question-circle"></i> FAQs</a>
                     </li>
 
 
                     <li class=" menu">
-                        <a href="#footer"> <i class="fa fa-address-card"></i> Contact Us</a>
+                        <a href="/Contact_Us"> <i class="fa fa-address-card"></i> Contact Us</a>
                     </li>
                     
                 </ul>
@@ -133,37 +134,12 @@
 
                     <div class="col-lg-6 ">
 
-                        <div class="form ">
+                        <div class=" ">
 
-                            <h4 style="font-weight: bold;text-decoration: underline;">Send us a message</h4>
-                            <p>Please fill in your information and send us your message. We will reply promptly !</p>
+                            <h4 style="font-weight: bold;text-decoration: underline;">OPENING HOURS</h4>
+                            <p>We are available 24 hours daily .</p>
 
-                            <form action="forms/contact.php " method="post " role="form " class="php-email-form ">
-                                <div class="form-group ">
-                                    <input type="text " name="name " class="form-control " id="name " placeholder="Your Name " data-rule="minlen:4 " data-msg="Please enter at least 4 chars " />
-                                    <div class="validate "></div>
-                                </div>
-                                <div class="form-group ">
-                                    <input type="email " class="form-control " name="email " id="email " placeholder="Your Email " data-rule="email " data-msg="Please enter a valid email " />
-                                    <div class="validate "></div>
-                                </div>
-                                <div class="form-group ">
-                                    <input type="text " class="form-control " name="subject " id="subject " placeholder="Subject " data-rule="minlen:4 " data-msg="Please enter at least 8 chars of subject " />
-                                    <div class="validate "></div>
-                                </div>
-                                <div class="form-group ">
-                                    <textarea class="form-control " name="message " rows="5 " data-rule="required " data-msg="Please write something for us " placeholder="Message "></textarea>
-                                    <div class="validate "></div>
-                                </div>
-
-                                <div class="mb-3 ">
-                                    <div class="loading ">Loading</div>
-                                    <div class="error-message "></div>
-                                    <div class="sent-message ">Your message has been sent. Thank you!</div>
-                                </div>
-
-                                <div class="text-center "><button type="submit " title="Send Message ">Send Message</button></div>
-                            </form>
+                            
 
                         </div>
 
