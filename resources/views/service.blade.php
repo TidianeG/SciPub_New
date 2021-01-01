@@ -1,6 +1,5 @@
 @extends('layouts.app')
       @section('content')
-
    <main>
       <section id="services" class="services section-bg">
             <div class="container">

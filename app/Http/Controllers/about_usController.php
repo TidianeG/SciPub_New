@@ -28,6 +28,6 @@ class about_usController extends Controller
         return view('FAQS');
      }
       public function Testimonials(){
-        return view('testimonials');
+        return view('Testimonials');
        }
 }

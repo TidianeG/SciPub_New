@@ -1,29 +1,11 @@
 @extends('layouts.app')
       @section('content')
-
-
-
-
-
-
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio section-bg p-3">
             <div class="container">
 
                 <header class="section-header">
                     <h3 class="section-title">Our Portfolio</h3>
                 </header>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
-                    </div>
-                </div>
-
                 <div class="row portfolio-container">
                     <div class="col-12 col-md-6 portfolio-item filter-app">
                         <div>

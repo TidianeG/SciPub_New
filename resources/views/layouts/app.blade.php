@@ -57,7 +57,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body style="max-height:auto;">
 
     <!-- ======= Header ======= -->
     <header id="header" style="background-color: white;">
@@ -96,72 +96,50 @@
             <!-- .main-nav -->
         </div>
     </header>
+    <div class="h-auto">
         @yield('content')
+    </div>
+      
      <!-- ======= Footer ======= -->
-     <footer id="footer " class="section-bg pt-5">
-        <div class="footer-top ">
-            <div class="container ">
-
-                <div class="row ">
-
-                    <div class="col-lg-6 ">
-
-                        <div class="row ">
-
-                            <div class="col-sm-6 ">
-
-                                <div class="footer-info ">
-                                    <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
-                                    <p>Providing assistance to Academics for scientific publications.</p>
-                                </div>
+     <footer id="" class="pt-2">
+        <div class=" p-">
+            <div class="d-flex justify-content-between">
+                <div class="">
+                    <div class="row ">
+                        <div class="col-sm-6 ">
+                            <div class="footer-info ">
+                                <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
+                                <p>Providing assistance to Academics for scientific publications.</p>
                             </div>
-
-                            <div class="col-sm-6 ">
-                                <div class="footer-links ">
-                                    <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
-                                    <p>
-                                        Xudong 2nd road, Wuhan, China
-                                        <strong>Email:</strong> usinfo@scipub.com<br>
-                                        <strong>QQ:</strong> 3216282335<br>
-                                        <strong>Wechat:</strong> sonsam10<br>
-                                    </p>
-                                </div>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <div class="footer-links ">
+                                <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
+                                <p>
+                                    Xudong 2nd road, Wuhan, China
+                                    <strong>Email:</strong> usinfo@scipub.com<br>
+                                    <strong>QQ:</strong> 3216282335<br>
+                                    <strong>Wechat:</strong> sonsam10<br>
+                                </p>
                             </div>
-
                         </div>
-
                     </div>
-
-                    <div class="col-lg-6 ">
-
-                        <div class=" ">
-
-                            <h4 style="font-weight: bold;text-decoration: underline;">OPENING HOURS</h4>
-                            <p>We are available 24 hours daily .</p>
-
-                            
-
-                        </div>
-
-                    </div>
-
                 </div>
-
+                <div class=" ">
+                    <div class=" ">
+                        <h4 style="font-weight: bold;text-decoration: underline;">Opening hours</h4>
+                        <p>We are available 24 hours daily .</p>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="container ">
-            <div class="copyright ">
+        <div class=" d-flex justify-content-between" style="background:#413e66;">
+            <div class="copyright " style="color:white;">
                 &copy; Copyright <strong><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> 2010-2020</strong>.
                 All Rights Reserved
             </div>
-            <div class="credits ">
-                <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-      -->
+            <div class="credits" style="color:white;">
+               
                 Designed by <a href="https://bootstrapmade.com/ "><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label></a>
             </div>
         </div>
@@ -171,6 +149,8 @@
     <a href="# " class="back-to-top "><i class="fa fa-chevron-up "></i></a>
 
     <!-- Vendor JS Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="{{asset('assets/vendor/jquery/jquery.min.js')}} "></script>
     <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}} "></script>
     <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}} "></script>
@@ -200,6 +180,7 @@
 
     <!-- Template Main JS File -->
     <script src="{{asset('assets/js/main.js')}} "></script>
+    <script src="{{asset('assets/js/collapse.js')}} "></script>
 
 </body>
 
