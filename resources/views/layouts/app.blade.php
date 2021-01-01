@@ -104,15 +104,13 @@
      <footer id="" class="pt-2">
         <div class=" p-">
             <div class="d-flex justify-content-between">
-                <div class="">
-                    <div class="row ">
-                        <div class="col-sm-6 ">
+                        <div class="">
                             <div class="footer-info ">
                                 <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
                                 <p>Providing assistance to Academics for scientific publications.</p>
                             </div>
                         </div>
-                        <div class="col-sm-6 ">
+                        <div class="">
                             <div class="footer-links ">
                                 <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
                                 <p>
@@ -123,8 +121,6 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </div>
                 <div class=" ">
                     <div class=" ">
                         <h4 style="font-weight: bold;text-decoration: underline;">Opening hours</h4>
