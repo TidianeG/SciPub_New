@@ -125,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" ">
+                <div class="col-12 col-md-6 ">
                     <div class=" ">
                         <h4 style="font-weight: bold;text-decoration: underline;">Opening hours</h4>
                         <p>We are available 24 hours daily .</p>
