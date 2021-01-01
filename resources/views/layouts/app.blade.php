@@ -106,13 +106,13 @@
             <div class="d-flex justify-content-between">
                 <div class="">
                     <div class="row ">
-                        <div class="col-12 col-md-6">
+                        <div class="col-sm-6 ">
                             <div class="footer-info ">
                                 <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
                                 <p>Providing assistance to Academics for scientific publications.</p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-sm-6 ">
                             <div class="footer-links ">
                                 <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
                                 <p>
@@ -125,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 ">
+                <div class=" ">
                     <div class=" ">
                         <h4 style="font-weight: bold;text-decoration: underline;">Opening hours</h4>
                         <p>We are available 24 hours daily .</p>
