@@ -154,11 +154,11 @@
                                     <strong>QQ:</strong> 3216282335<br>
                                     <strong>Wechat:</strong> sonsam10<br>
                                 </p>
->>>>>>> d27c3528bfebef6cb4e153019d7d1940d5fdb8a7
+
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
+
 
                     <div class="col-lg-6 ">
 
@@ -177,12 +177,12 @@
                     <div class=" ">
                         <h4 style="font-weight: bold;text-decoration: underline;">Opening hours</h4>
                         <p>We are available 24 hours daily .</p>
->>>>>>> d27c3528bfebef6cb4e153019d7d1940d5fdb8a7
+
                     </div>
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
+
 
         <div class="container ">
             <div class="copyright ">
