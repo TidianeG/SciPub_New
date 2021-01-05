@@ -10,8 +10,8 @@
             <div class="container">
 
                 <header class="section-header mt-5">
-                    <h3>Pricing</h3>
-                    <p>This is our pricing for our different services. Please contact us directly for a formal price quotation</p>
+                    <h1 style="color: darkred;text-align: center;">Pricing</h1>
+                    <p style="font-size: 20px; font-weight: bold;">This is our pricing for our different services. <br>Please contact us directly for a formal price quotation .</p>
                 </header>
 
                 <div class="row flex-items-xs-middle flex-items-xs-center">
@@ -25,8 +25,9 @@
                                 <h4 style="color: darkred;" class="card-title">
                                     Manuscript proofreading
                                 </h4>
-                                <p> No matter the length of your manuscript, we have a standard price</p>
-                                <a href="#" class="btn">Choose </a>
+                                <p style="font-weight: bold;font-size: 15px;"> No matter the length of your manuscript, <br>we have a standard price .</p>
+                
+
                             </div>
                         </div>
                     </div>
@@ -41,8 +42,8 @@
                                 <h4 style="color: darkred;" class="card-title">
                                     Technical review
                                 </h4>
-                                <p> No matter the length of your manuscript, we have a standard price</p>
-                                <a href="#" class="btn">Choose </a>
+                                <p style="font-weight: bold;font-size: 15px;"> No matter the length of your manuscript,<br> we have a standard price .</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -57,8 +58,8 @@
                                 <h4 style="color: darkred;" class="card-title">
                                     Plagiarism Check
                                 </h4>
-                                <p> No matter the length of your manuscript, we have a standard price</p>
-                                <a href="#" class="btn">Choose Plan</a>
+                                <p style="font-weight: bold;font-size: 15px;"> No matter the length of your manuscript, <br>we have a standard price .</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -72,8 +73,8 @@
                                 <h4 style="color: darkred;" class="card-title ">
                                     Full manuscript writing
                                 </h4>
-                                <p> Please contact us to get a quotation. Price depends on the target journal, data analysis requested, complexity of the study, etc.</p>
-                                <a href="# " class="btn ">Choose Plan</a>
+                                <p style="font-weight: bold;font-size: 15px;"> Please contact us to get a quotation.<br> Price depends on the target journal, <br>data analysis requested, complexity <br>of the study, etc.</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -87,8 +88,8 @@
                                 <h4 style="color: darkred;" class="card-title ">
                                     Bioinformatic data analysis
                                 </h4>
-                                <p> Please contact us to get a quotation. Price depends on the data analysis requested, complexity of the datasets, etc.</p>
-                                <a href="# " class="btn ">Choose Plan</a>
+                                <p style="font-weight: bold;font-size: 15px;"> Please contact us to get a quotation. <br>Price depends on the data analysis<br> requested, complexity of the<br> datasets, etc.</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -99,11 +100,12 @@
                                 <h3><span class="currency ">$</span>200</h3>
                             </div>
                             <div class="card-block ">
+                                
                                 <h4 style="color: darkred;" class="card-title ">
                                     Journal recommendation-submission
                                 </h4>
-                                <p> it includes up to 5 journals suggestion, cover letter drafting , manuscript formatting and submission</p>
-                                <a href="# " class="btn ">Choose Plan</a>
+                               <p style="font-weight: bold;font-size: 15px;"> it includes up to 5 journals suggestion,<br> cover letter drafting , manuscript <br>formatting and submission .</p>
+                               
                             </div>
                         </div>
                     </div>
@@ -113,9 +115,6 @@
 
         </section>
         <!-- End Pricing Section -->
-
-
-
 
 
 

@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
     
     <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
@@ -32,6 +34,7 @@
 
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{asset('fonts/Linearicons-Free-v1.0.0/icon-font.min.css')}}">
+     <link rel="stylesheet" type="text/css" href="{{asset('css/scipub.css')}}">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{asset('fonts/iconic/css/material-design-iconic-font.min.css')}}">
     <!--===============================================================================================-->
@@ -98,7 +101,7 @@
     </header>
         @yield('content')
      <!-- ======= Footer ======= -->
-     <footer id="footer " class="section-bg pt-5">
+     <footer id="footer " class="section-bg pt-5" style="float: none;">
         <div class="footer-top ">
             <div class="container ">
 
@@ -112,18 +115,18 @@
 
                                 <div class="footer-info ">
                                     <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
-                                    <p>Providing assistance to Academics for scientific publications.</p>
+                                    <p style="font-size: 14px;font-weight: bold;">Providing assistance to Academics for scientific publications.</p>
                                 </div>
                             </div>
 
-                            <div class="col-sm-6 ">
+                            <div class="col-sm-6 col-12 ">
                                 <div class="footer-links ">
                                     <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
-                                    <p>
-                                        Xudong 2nd road, Wuhan, China
+                                    <p style="font-size: 14px;font-weight: bold;">
+                                        Xudong 2nd road, Wuhan, China.
                                         <strong>Email:</strong> usinfo@scipub.com<br>
                                         <strong>QQ:</strong> 3216282335<br>
-                                        <strong>Wechat:</strong> sonsam10<br>
+                                        <strong>Wechat:</strong> sonsam10 .<br>
                                     </p>
                                 </div>
                             </div>
@@ -134,10 +137,10 @@
 
                     <div class="col-lg-6 ">
 
-                        <div class=" ">
+                        <div class="col-sm-8 ">
 
                             <h4 style="font-weight: bold;text-decoration: underline;">OPENING HOURS</h4>
-                            <p>We are available 24 hours daily .</p>
+                            <p style="font-size: 14px;font-weight: bold;">We are available 24 hours daily .</p>
 
                             
 
@@ -152,8 +155,8 @@
 
         <div class="container ">
             <div class="copyright ">
-                &copy; Copyright <strong><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> 2010-2020</strong>.
-                All Rights Reserved
+                &copy; Copyright <strong><label for="" style="color: darkred;font-size: 20px;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;font-size: 20px;">P</label><label for="" style="color: black;">ub</label> 2010-2020</strong>.<br>
+                All Rights Reserved.
             </div>
             <div class="credits ">
                 <!--
@@ -162,7 +165,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
       -->
-                Designed by <a href="https://bootstrapmade.com/ "><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label></a>
+                Designed by <a href="https://bootstrapmade.com/ "><strong><label for="" style="color: darkred;  font-size: 20px;">S</label><label for="" style="color: black;">ci</label><label for="" style="color: darkred;font-weight: bolder;font-size: 20px;">P</label><label for="" style="color: black;font-weight: bolder;">ub </label>.</strong></a>
             </div>
         </div>
     </footer>
@@ -172,6 +175,8 @@
 
     <!-- Vendor JS Files -->
     <script src="{{asset('assets/vendor/jquery/jquery.min.js')}} "></script>
+    <script href=" https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}} "></script>
     <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}} "></script>
     <script src="{{asset('assets/vendor/php-email-form/validate.js')}} "></script>
@@ -196,7 +201,7 @@
     <!--===============================================================================================-->
     <script src="{{asset('vendor/countdowntime/countdowntime.js')}} "></script>
     <!--===============================================================================================-->
-    <script src="{{asset('js/main.js')}} "></script>
+    <script src="{{asset('js/sci.js')}} "></script>
 
     <!-- Template Main JS File -->
     <script src="{{asset('assets/js/main.js')}} "></script>
