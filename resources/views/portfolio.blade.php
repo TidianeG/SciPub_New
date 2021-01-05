@@ -1,19 +1,16 @@
 @extends('layouts.app')
       @section('content')
-
-
-
-
-
-
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio section-bg p-3">
             <div class="container">
 
                 <header class="section-header mt-5">
                     <h3 class="section-title">Our Portfolio</h3>
                 </header>
+<<<<<<< HEAD
 
                 
+=======
+>>>>>>> d27c3528bfebef6cb4e153019d7d1940d5fdb8a7
                 <div class="row portfolio-container">
                     <div class="col-12 col-md-6 portfolio-item filter-app">
                         <li style="font-weight: bold;font-size: 21px;"><i class="ion-android-checkmark-circle"></i> <span style="color: darkred;text-decoration: underline;">University Parteners.</span></li>

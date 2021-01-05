@@ -60,7 +60,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body style="max-height:auto;">
 
     <!-- ======= Header ======= -->
     <header id="header" style="background-color: white;">
@@ -99,8 +99,12 @@
             <!-- .main-nav -->
         </div>
     </header>
+    <div class="h-auto">
         @yield('content')
+    </div>
+      
      <!-- ======= Footer ======= -->
+<<<<<<< HEAD
      <footer id="footer " class="section-bg pt-5" style="float: none;">
         <div class="footer-top ">
             <div class="container ">
@@ -129,11 +133,32 @@
                                         <strong>Wechat:</strong> sonsam10 .<br>
                                     </p>
                                 </div>
+=======
+     <footer id="" class="pt-2">
+        <div class=" p-">
+            <div class="d-flex justify-content-between">
+                <div class="">
+                    <div class="row ">
+                        <div class="col-sm-6 ">
+                            <div class="footer-info ">
+                                <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
+                                <p>Providing assistance to Academics for scientific publications.</p>
                             </div>
-
                         </div>
-
+                        <div class="col-sm-6 ">
+                            <div class="footer-links ">
+                                <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
+                                <p>
+                                    Xudong 2nd road, Wuhan, China
+                                    <strong>Email:</strong> usinfo@scipub.com<br>
+                                    <strong>QQ:</strong> 3216282335<br>
+                                    <strong>Wechat:</strong> sonsam10<br>
+                                </p>
+>>>>>>> d27c3528bfebef6cb4e153019d7d1940d5fdb8a7
+                            </div>
+                        </div>
                     </div>
+<<<<<<< HEAD
 
                     <div class="col-lg-6 ">
 
@@ -146,12 +171,18 @@
 
                         </div>
 
-                    </div>
-
+=======
                 </div>
-
+                <div class=" ">
+                    <div class=" ">
+                        <h4 style="font-weight: bold;text-decoration: underline;">Opening hours</h4>
+                        <p>We are available 24 hours daily .</p>
+>>>>>>> d27c3528bfebef6cb4e153019d7d1940d5fdb8a7
+                    </div>
+                </div>
             </div>
         </div>
+<<<<<<< HEAD
 
         <div class="container ">
             <div class="copyright ">
@@ -166,6 +197,16 @@
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
       -->
                 Designed by <a href="https://bootstrapmade.com/ "><strong><label for="" style="color: darkred;  font-size: 20px;">S</label><label for="" style="color: black;">ci</label><label for="" style="color: darkred;font-weight: bolder;font-size: 20px;">P</label><label for="" style="color: black;font-weight: bolder;">ub </label>.</strong></a>
+=======
+        <div class=" d-flex justify-content-between" style="background:#413e66;">
+            <div class="copyright " style="color:white;">
+                &copy; Copyright <strong><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> 2010-2020</strong>.
+                All Rights Reserved
+            </div>
+            <div class="credits" style="color:white;">
+               
+                Designed by <a href="https://bootstrapmade.com/ "><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label></a>
+>>>>>>> d27c3528bfebef6cb4e153019d7d1940d5fdb8a7
             </div>
         </div>
     </footer>
@@ -174,6 +215,8 @@
     <a href="# " class="back-to-top "><i class="fa fa-chevron-up "></i></a>
 
     <!-- Vendor JS Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="{{asset('assets/vendor/jquery/jquery.min.js')}} "></script>
     <script href=" https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -205,6 +248,7 @@
 
     <!-- Template Main JS File -->
     <script src="{{asset('assets/js/main.js')}} "></script>
+    <script src="{{asset('assets/js/collapse.js')}} "></script>
 
 </body>
 

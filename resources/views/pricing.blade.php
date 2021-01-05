@@ -1,9 +1,5 @@
 @extends('layouts.app')
       @section('content')
-
-
-
-
        <!-- ======= Pricing Section ======= -->
         <section id="pricing" class="pricing section-bg wow fadeInUp">
 
