@@ -46,6 +46,7 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{asset('css/util.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
+
     <!-- Template Main CSS File -->
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 
@@ -61,22 +62,17 @@
 
     <!-- ======= Header ======= -->
     <header id="header" style="background-color: white;">
-
-
         <div class="mr-2 ml-2" style="display: flex;">
-
             <div class="logo float-left">
                 <!-- Uncomment below if you prefer to use an image logo -->
 
                 <a href="/" class="scrollto"><img src="{{asset('assets/img/logo.JPG')}}" alt="" class="img-fluid" style="height=10px width = 10px;"></a>
             </div>
-
             <nav class="main-nav float-right d-none d-lg-block pt-4">
                 <ul class="d-flex justify-content-between">
                     <li class="menu"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                     <li class="menu"><a href="/about">About Us</a></li>
-                    <li class="menu "><a href="/services"><i class="fas fa-book-open"></i> Services</a>
-                        
+                    <li class="menu "><a href="/services"><i class="fas fa-book-open"></i> Services</a>   
                     </li>
                     <li class="menu"><a href="/Why_Choose_Us">Why choose us ?</a></li>
                     <li class="menu"><a href="/portfolio">Portfolio</a></li>
@@ -85,8 +81,6 @@
                     <li class="menu">
                         <a href="/FAQS"> <i class="fas fa-question-circle"></i> FAQs</a>
                     </li>
-
-
                     <li class=" menu">
                         <a href="/Contact_Us"> <i class="fa fa-address-card"></i> Contact Us</a>
                     </li>
@@ -102,30 +96,27 @@
       
      <!-- ======= Footer ======= -->
      <footer id="" class="pt-2">
-        <div class=" p-">
-            <div class="d-flex justify-content-between">
-                <div class="">
-                    <div class="row ">
-                        <div class="col-sm-6 ">
-                            <div class="footer-info ">
-                                <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
-                                <p>Providing assistance to Academics for scientific publications.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                            <div class="footer-links ">
-                                <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
-                                <p>
-                                    Xudong 2nd road, Wuhan, China
-                                    <strong>Email:</strong> usinfo@scipub.com<br>
-                                    <strong>QQ:</strong> 3216282335<br>
-                                    <strong>Wechat:</strong> sonsam10<br>
-                                </p>
-                            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <div class="">
+                        <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
+                        <p>Providing assistance <br> to Academics for <br> scientific publications.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="">
+                        <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
+                            <p>
+                                <div>Xudong 2nd road, Wuhan, China</div> 
+                                <strong>Email:</strong> usinfo@scipub.com<br>
+                                <strong>QQ:</strong> 3216282335<br>
+                                <strong>Wechat:</strong> sonsam10<br>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class=" ">
+                <div class="col-6 col-md-4">
                     <div class=" ">
                         <h4 style="font-weight: bold;text-decoration: underline;">Opening hours</h4>
                         <p>We are available 24 hours daily .</p>
@@ -160,9 +151,10 @@
     <script src="{{asset('assets/vendor/venobox/venobox.min.js')}} "></script>
     <script src="{{asset('assets/vendor/mobile-nav/mobile-nav.js')}} "></script>
     <script src="{{asset('assets/vendor/wow/wow.min.js')}} "></script>
-    <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}} "></script>
+    
     <script src="{{asset('assets/vendor/waypoints/jquery.waypoints.min.js')}} "></script>
     <script src="{{asset('vendor/jquery/jquery-3.2.1.min.js')}} "></script>
+    
     <!--===============================================================================================-->
     <script src="{{asset('vendor/animsition/js/animsition.min.js')}} "></script>
     <!--===============================================================================================-->

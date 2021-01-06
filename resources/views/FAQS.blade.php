@@ -1,9 +1,5 @@
 @extends('layouts.app')
-      @section('content')
-
-
-
-
+    @section('content')
       <!-- ======= F.A.Q Section ======= -->
         <section id="faq" class="faq wow fadeInUp ">
             <div class="container ">
@@ -11,7 +7,6 @@
                     <h3>Frequently Asked Questions</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
                 </header>
-
                 <ul id="faq-list " class="wow fadeInUp ">
                     <li class="mb-2">
                         <h6 id="question1" class="question" >What are the options I can avail for editing? <i class="ion-android-remove "></i></5>
@@ -24,7 +19,6 @@
                             </p>
                         </div>
                     </li>
-
                     <li class="mb-2">
                         <h6 id="question2" class="question">Are your editors really qualified? <i class="ion-android-remove "></i></h6>
                         <div id="faq2" class="collapse" data-parent="#faq-list">
@@ -36,7 +30,6 @@
                             </p>
                         </div>
                     </li>
-
                     <li class="mb-2">
                         <h6 id="question3" class="question">Why should I choose your company? What are your offers? <i class="ion-android-remove "></i></h6>
                         <div id="faq3" class="collapse" data-parent="#faq-list">
@@ -48,7 +41,6 @@
                             </p>
                         </div>
                     </li>
-
                     <li class="mb-2" >
                         <h6 id="question4" class="question">What is the difference between your technical reading service and proofreading service? <i class="ion-android-remove "></i></h6>
                         <div id="faq4" class="collapse" data-parent="#faq-list">
@@ -60,7 +52,6 @@
                             </p>
                         </div>
                     </li>
-
                     <li class="mb-2">
                         <h6 id="question5" class="question">What is the turnaround time I can expect a response from your team? <i class="ion-android-remove "></i></h6>
                         <div id="faq5" class="collapse" data-parent="#faq-list">
@@ -72,7 +63,6 @@
                             </p>
                         </div>
                     </li>
-
                     <li class="mb-2">
                         <h6 id="question6" class="question">How many days will your submission service last?<i class="ion-android-remove "></i></h6>
                         <div id="faq6" class="collapse" data-parent="#faq-list">
@@ -106,36 +96,8 @@
                             </p>
                         </div>
                     </li>
-
                 </ul>
-
             </div>
         </section>
         <!-- End F.A.Q Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       @endsection
+    @endsection
