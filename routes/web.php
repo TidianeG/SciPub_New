@@ -23,8 +23,6 @@ Route::get('/FAQS', "about_usController@FAQS");
 Route::get('/pricing', "about_usController@pricing");
 Route::get('/Contact_Us', "about_usController@Contact_Us");
 Route::get('/portfolio', "about_usController@portfolio");
+Route::get('/dashbord', "about_usController@dashbord");
 Route::get('/testimonials', "about_usController@testimonials");
-Route::post('/Contact_Us', [
-    'uses' => 'about_usController@CreateForm',
-    'as' => 'contact.store'
-]);
+Route::post('/Contact_Us', "about_usController@CreateForm") ->name('contact.store');

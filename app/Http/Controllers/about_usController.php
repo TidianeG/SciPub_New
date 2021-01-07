@@ -37,16 +37,18 @@ class about_usController extends Controller
    public function contact() {
       return view('ContactUs');
     }
+
+    public function dashbord() {
+      return view('my_message');
+    }
        public function CreateForm(Request $request) {       
    
-    $contact = new Contact();
+      $contact = new Contact();
       $data = $request->validate([
          'name'=>'required|min:3',
          'email' => 'required|min:4|email',
          'subjet' => 'required|max:1000000',
-         'message' => 'required|min:3|max:1000000'
-         
-         
+         'message' => 'required|min:3|max:1000000'  
      ]);       
     
      $contact->name = $request->input('name');

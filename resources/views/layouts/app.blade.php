@@ -73,19 +73,19 @@
             </div>
             <nav class="main-nav float-right d-none d-lg-block pt-4">
                 <ul class="d-flex justify-content-between">
-                    <li class="menu"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                    <li class="menu"><a href="/about">About Us</a></li>
-                    <li class="menu "><a href="/services"><i class="fas fa-book-open"></i> Services</a>   
+                    <li class="menu"><a href="/"><i class="fas fa-home" ></i> Home</a></li>
+                    <li class="menu"><a href="/about"><i class="fa fa-users mr-1"></i>About Us</a></li>
+                    <li class="menu "><a href="/services"><i class="fas fa-book-open mr-1"></i> Services</a>   
                     </li>
-                    <li class="menu"><a href="/Why_Choose_Us">Why choose us ?</a></li>
-                    <li class="menu"><a href="/portfolio">Portfolio</a></li>
-                    <li class="menu"><a href="/pricing">Pricing</a></li>
-                    <li class="menu"><a href="/testimonials">Testimonials</a></li>
+                    <li class="menu"><a href="/Why_Choose_Us"><i class="fas fa-book mr-1"></i>Why choose us ?</a></li>
+                    <li class="menu"><a href="/portfolio"><i class="fas fa-folder mr-1"></i>Portfolio</a></li>
+                    <li class="menu"><a href="/pricing"><i class="fas fa-hand-holding-usd mr-1"></i>Pricing</a></li>
+                    <li class="menu"><a href="/testimonials"><i class="fas fa-handshake mr-1"></i>Testimonials</a></li>
                     <li class="menu">
-                        <a href="/FAQS"> <i class="fas fa-question-circle"></i> FAQs</a>
+                        <a href="/FAQS"> <i class="fa fa-question-circle"></i> FAQs</a>
                     </li>
                     <li class=" menu">
-                        <a href="/Contact_Us"> <i class="fa fa-address-card"></i> Contact Us</a>
+                        <a href="#" data-toggle="modal" data-target="#myModal"> <i class="fa fa-address-card"></i> Contact Us</a>
                     </li>
                     
                 </ul>
@@ -93,78 +93,74 @@
             <!-- .main-nav -->
         </div>
     </header>
-    <div class="h-auto">
+    <div class="h-auto pt-5">
         @yield('content')
     </div>
-      
-     <!-- ======= Footer ======= -->
-     <footer id="footer " class="section-bg pt-5" style="float: none;">
-        <div class="footer-top ">
-            <div class="container ">
-
-                <div class="row ">
-
-                    <div class="col-lg-6 ">
-
-                        <div class="row ">
-
-                            <div class="col-sm-6 ">
-
-                                <div class="footer-info ">
-                                    <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
-                                    <p style="font-size: 14px;font-weight: bold;">Providing assistance to Academics for scientific publications.</p>
+        <!-- ======= Modal contact ======= -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <a class="navbar-brand d-none d-sm-inline-block form-inline mr-auto ml-md-3 mb-md-3 my-2 my-md-0 mw-100" href="index.html"><img src="{{asset('assets/img/logo.JPG')}}" width="100" height="50" alt="Logo"></a>
+                            <button type="button" style="background:darkred;border-radius:15px;" class="close m-1 " data-dismiss="modal">&times;</button>
+                        </div>                        
+                        <!-- Modal body -->
+                        <div class="modal-body container">
+                            <form action="{{route('contact.store')}}" method="post">
+                            @csrf
+                                @if($errors->any())
+                                    @foreach($errors->all() as $error)
+                                        <div class="alert alert-danger">{{$error}}</div>
+                                    @endforeach
+                                @endif
+                                <div class="form-group ">
+                                    <input  name="name" class="form-control "  placeholder="Your Name " data-msg="Please enter at least 4 chars " />
+                                    <div class="validate "></div>
                                 </div>
-                            </div>
-
-                            <div class="col-sm-6 col-12 ">
-                                <div class="footer-links ">
-                                    <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
-                                    <p style="font-size: 14px;font-weight: bold;">
-                                        Xudong 2nd road, Wuhan, China.
-                                        <strong>Email:</strong> usinfo@scipub.com<br>
-                                        <strong>QQ:</strong> 3216282335<br>
-                                        <strong>Wechat:</strong> sonsam10 .<br>
-                                    </p>
+                                <div class="form-group ">
+                                    <input  class="form-control " name="email"  placeholder="Your Email " data-msg="Please enter a valid email " />
+                                    <div class="validate "></div>
                                 </div>
-
-     <footer id="" class="pt-2">
-        <div class=" p-">
-            <div class="d-flex justify-content-between">
-                <div class="">
-                    <div class="row ">
-                        <div class="col-sm-6 ">
-                            <div class="footer-info ">
-                                <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
-                                <p>Providing assistance to Academics for scientific publications.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                            <div class="footer-links ">
-                                <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
-                                <p>
-                                    Xudong 2nd road, Wuhan, China
-                                    <strong>Email:</strong> usinfo@scipub.com<br>
-                                    <strong>QQ:</strong> 3216282335<br>
-                                    <strong>Wechat:</strong> sonsam10<br>
-                                </p>
-
-                            </div>
-                        </div>
+                                <div class="form-group ">
+                                    <input  class="form-control " name="subjet"  placeholder="Subject " data-msg="Please enter at least 8 chars of subject " />
+                                    <div class="validate "></div>
+                                </div>
+                                <div class="form-group ">
+                                    <textarea class="form-control " name="message" rows="7 " data-msg="Please write something for us " placeholder="Message "></textarea>
+                                    <div class="validate "></div>
+                                </div>
+                                <div class="d-flex justify-content-around">         
+                                    <button type="submit" class="btn btn-success">Send message</button>
+                                    <button type="reset" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </form>
+                        </div>      
+                        <!-- Modal footer -->                
                     </div>
-
-
-                    <div class="col-lg-6 ">
-
-                        <div class="col-sm-8 ">
-
-                            <h4 style="font-weight: bold;text-decoration: underline;">OPENING HOURS</h4>
-                            <p style="font-size: 14px;font-weight: bold;">We are available 24 hours daily .</p>
-
-                            
-
-                        </div>
-
-
+                </div>
+            </div>
+        <!-- ======= End modal contact ======= -->
+     <!-- ======= Footer ======= -->
+    <footer id="" class="pt-2">
+        <div class="pl-2 pr-2">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <div class="">
+                        <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
+                        <p>Providing assistance <br> to Academics for <br> scientific publications.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="">
+                        <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
+                            <p>
+                                <div>Xudong 2nd road, Wuhan, China</div> 
+                                <strong>Email:</strong> usinfo@scipub.com<br>
+                                <strong>QQ:</strong> 3216282335<br>
+                                <strong>Wechat:</strong> sonsam10<br>
+                            </p>
+                    </div>
                 </div>
                 <div class="col-6 col-md-4">
                     <div class=" ">
@@ -175,31 +171,13 @@
                 </div>
             </div>
         </div>
-
-
-        <div class="container ">
-            <div class="copyright ">
-                &copy; Copyright <strong><label for="" style="color: darkred;font-size: 20px;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;font-size: 20px;">P</label><label for="" style="color: black;">ub</label> 2010-2020</strong>.<br>
-                All Rights Reserved.
-            </div>
-            <div class="credits ">
-                <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-      -->
-                Designed by <a href="https://bootstrapmade.com/ "><strong><label for="" style="color: darkred;  font-size: 20px;">S</label><label for="" style="color: black;">ci</label><label for="" style="color: darkred;font-weight: bolder;font-size: 20px;">P</label><label for="" style="color: black;font-weight: bolder;">ub </label>.</strong></a>
-
         <div class=" d-flex justify-content-between" style="background:#413e66;">
             <div class="copyright " style="color:white;">
                 &copy; Copyright <strong><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> 2010-2020</strong>.
                 All Rights Reserved
             </div>
-            <div class="credits" style="color:white;">
-               
+            <div class="credits" style="color:white;">           
                 Designed by <a href="https://bootstrapmade.com/ "><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label></a>
-
             </div>
         </div>
     </footer>

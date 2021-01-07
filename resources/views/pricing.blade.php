@@ -6,7 +6,7 @@
             <div class="container">
 
                 <header class="section-header mt-5">
-                    <h1 style="color: darkred;text-align: center;">Pricing</h1>
+                    
                     <p style="font-size: 20px; font-weight: bold;">This is our pricing for our different services. <br>Please contact us directly for a formal price quotation .</p>
                 </header>
 

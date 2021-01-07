@@ -1,8 +1,6 @@
 @extends('layouts.app')
-      @section('content')
-
-
-    <section id="why-us" class="why-us">
+    @section('content')
+        <section id="why-us" class="why-us">
             <div class="container-fluid">
 
                 <header class="section-header mt-5"  >
@@ -25,7 +23,7 @@
                                 <i class="fas fa-handshake" style="color: #ffb774;"></i>
                                 <h4>Customer satisfaction is our first goal</h4>
                                 <p style="text-align: justify;font-size: 18px;">Yes, it is true that companies work for living, but at <label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label>
-                        <label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label>above all, we work to satisfy our customers in order to retain them. We work in symbiosis with our customers while doing our best to offer the highest
+                                <label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label>above all, we work to satisfy our customers in order to retain them. We work in symbiosis with our customers while doing our best to offer the highest
                                     possible quality of service. As we know, quality begets trust. And it is the trust of the customers that our company wants to earn through its unmatched services .</p>
                             </div>
 
@@ -77,7 +75,7 @@
                 </div>
 
                 <div class="container">
-                    <div class="row counters">
+                    <div class="row counters justify-content-center">
 
                         <div class="col-lg-2 col-6 text-center">
                             <span data-toggle="counter-up">2106</span>
@@ -109,32 +107,4 @@
                 </div>
         </section>
         <!-- End Why Us Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
        @endsection
