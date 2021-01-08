@@ -3,11 +3,11 @@
         <section id="portfolio" class="portfolio section-bg p-3">
             <div class="container">
                 <header class="section-header mt-5">
-                    <h3 class="section-title">Our Portfolio</h3>
+                    <h2 style="text-align: center;"> <label for="" style="font-weight: bolder;font-size: 32px;" class="section-title">Our Portfolio</h2>
                 </header>  
                 <div class="row portfolio-container">
                     <div class="col-12 col-md-7 portfolio-item filter-app">
-                        <li style="font-weight: bold;font-size: 21px;"><i class="ion-android-checkmark-circle"></i> <span style="color: darkred;text-decoration: underline;">University Parteners.</span></li>
+                        <li style="font-weight: bold;font-size: 23px;"><i class="ion-android-checkmark-circle"></i>  <span style="color: darkred;text-decoration: underline;">University Parteners.</span></li>
                         <div class="portfolio-wrap mt-5">
                             <img src="{{asset('assets/img/university.jpg')}}"  class="img-fluid" alt="" style="height:50vh;">
                             <div class="portfolio-info">
@@ -21,7 +21,7 @@
                     <div class="col-12 col-md-5 portfolio-item filter-app">
                         <div>
                             
-                            <li style="font-weight: bold;font-size: 21px;"><i class="ion-android-checkmark-circle"></i> <span style="color: darkred;text-decoration: underline;">Targeted Journals and Publishers</span></li>
+                            <li style="font-weight: bold;font-size: 23px;"><i class="ion-android-checkmark-circle"></i>  <span style="color: darkred;text-decoration: underline;">Targeted Journals and Publishers</span></li>
                         </div>
                         <div class="portfolio-wrap mt-5">
                             <img src="{{asset('assets/img/journaux.jpg')}}" class="img-fluid w-100" style="height:50vh;" alt="">

@@ -145,39 +145,39 @@
     <footer id="" class="pt-2">
         <div class="pl-2 pr-2">
             <div class="row">
-                <div class="col-6 col-md-4">
-                    <div class="">
+                <div class="col-6 col-md-4" style="margin-right: auto;">
+                    <div style="">
                         <img style="width: 100px; height: auto;" src="{{asset('assets/img/logo.JPG')}}">
-                        <p>Providing assistance <br> to Academics for <br> scientific publications.</p>
+                        <p style="color: black;font-size: 18px;">Providing assistance <br> to Academics for <br> scientific publications.</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4">
                     <div class="">
                         <h4 style="font-weight: bold;text-decoration: underline;">Contact Us</h4>
-                            <p>
-                                <div>Xudong 2nd road, Wuhan, China</div> 
-                                <strong>Email:</strong> usinfo@scipub.com<br>
-                                <strong>QQ:</strong> 3216282335<br>
-                                <strong>Wechat:</strong> sonsam10<br>
+                            <p style="color: black;font-size: 18px;">
+                                <div style="font-size:18px;color: black;">Xudong 2nd road, Wuhan, China</div> 
+                                <strong style="font-size: 18px;">Email:</strong> <span style="font-size:18px;color: black;"> usinfo@scipub.com</span><br>
+                                <strong style="font-size: 18px;">QQ:</strong> <span style="font-size:18px;color: black;"> 3216282335</span><br>
+                                <strong style="font-size: 18px;">Wechat:</strong> <span style="font-size:18px;color: black;"> sonsam10</span><br>
                             </p>
                     </div>
                 </div>
                 <div class="col-6 col-md-4">
                     <div class=" ">
                         <h4 style="font-weight: bold;text-decoration: underline;">Opening hours</h4>
-                        <p>We are available 24 hours daily .</p>
+                        <p style="color: black;font-size: 18px;">We are available 24 hours daily .</p>
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class=" d-flex justify-content-between" style="background:#413e66;">
+        <div class=" d-flex justify-content-between" style="background:#00BFFF;">
             <div class="copyright " style="color:white;">
-                &copy; Copyright <strong><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label> 2010-2020</strong>.
+                &copy; Copyright <strong><label for="" style="color: darkred; font-size: 20px;font-weight: bold;">S</label><label for="" style="color: black;font-weight: bold;">ci</label><label for="" style="color: darkred;font-size: 20px;font-weight: bold;">P</label><label for="" style="color: black;font-weight: bold;">ub</label> 2021</strong>.
                 All Rights Reserved
             </div>
-            <div class="credits" style="color:white;">           
-                Designed by <a href="https://bootstrapmade.com/ "><label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label></a>
+            <div class="credits mr-auto" style="color:white;">           
+                Designed by <label for="" style="color: darkred; font-weight: bolder;">S</label><label for="" style="color: black;font-weight: bolder;">ci</label><label for="" style="color: darkred;font-weight: bolder;">P</label><label for="" style="color: black;font-weight: bolder;">ub</label>
             </div>
         </div>
     </footer>
